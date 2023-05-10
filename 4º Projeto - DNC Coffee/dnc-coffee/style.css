@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+.hide {
+    display: none;
+} 
+
+.card-cafe:hover .hide{
+    display: block;
+}
+
+.card-cafe{
+   align-items: center;
+}
+
+.botao-comprar {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 202px;
+    height: 48px;
+    left: 64px;
+    top: 337px;
+
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+}
+
+.modal {
+    position: absolute;
+    width: 671px;
+    height: 581px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+  }
+
+  .modal-conteudo h2{
+    position: absolute;
+    width: 259px;
+    height: 20px;
+    left: 203px;
+    top: 111px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 20px;
+    color: #000000;
+  }
+
+  .modal-conteudo p{
+    position: absolute;
+    width: 568px;
+    height: 130px;
+    left: 57px;
+    top: 200px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 40px;
+
+    text-align: center;
+
+    color: #000000;
+
+  }
+
+  .modal-fechar {
+    position: absolute;
+    left: 92.5%;
+    top: 7.5%;
+    cursor: pointer;
+  }
+  
+#botao-contato {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 253px;
+    height: 48px;
+    left: 209px;
+    top: 395px;
+
+    background: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F6F5FB;
+  }
